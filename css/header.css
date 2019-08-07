@@ -1,0 +1,44 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.region {
+  height: 45px;
+  background-image: linear-gradient(to right, #76c6eb, #009ce8);
+  width: 100%;
+}
+
+.region img {
+  padding: 5px;
+}
+
+.institute {
+  margin: none;
+  /* background-color: beige; */
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.institute h1 {
+  font-family: "Merriweather", serif;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-weight: 800;
+  font-size: 120px;
+  letter-spacing: 30px;
+  color: black;
+}
+
+.institute h2 {
+  margin: 0;
+  font-family: "Merriweather", serif;
+}

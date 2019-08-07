@@ -1,0 +1,71 @@
+.footerContainer {
+  width: 100%;
+  background-color: beige;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  font-size: 14px;
+}
+
+.columnDivider {
+  padding: 30px;
+  margin: auto;
+  width: 100%;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.contact {
+  flex-basis: 300px;
+  /* background-color: red; */
+}
+
+.footerTitle {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.Address p {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 25px;
+}
+
+.social-media {
+  flex-basis: 75px;
+  /* background-color: green; */
+}
+
+.links {
+  flex-basis: 100px;
+  /* background-color: blue; */
+}
+
+.links a {
+  margin: 0;
+  display: block;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.footerAbout {
+  flex-basis: 250px;
+  /* background-color: pink; */
+}
+
+.footerIcons {
+  text-align: center;
+}
+
+.social-reference img {
+  border-radius: 99px;
+  color: #fff;
+  display: inline;
+  height: 2.2em;
+  vertical-align: middle;
+  width: 2.2em;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 850px) {
+}
