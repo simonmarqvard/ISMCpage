@@ -12,6 +12,7 @@
   width: 100%;
   justify-content: space-evenly;
   display: flex;
+  flex-direction: column;
 }
 
 .contact {
@@ -32,11 +33,13 @@
 }
 
 .social-media {
+  display: none;
   flex-basis: 75px;
   /* background-color: green; */
 }
 
 .links {
+  display: none;
   flex-basis: 100px;
   /* background-color: blue; */
 }
@@ -68,4 +71,26 @@
 }
 
 @media only screen and (min-width: 850px) {
+  .columnDivider {
+    padding: 30px;
+    margin: auto;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .links {
+    display: unset;
+  }
+
+  .social-media {
+    display: unset;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .columnDivider {
+    flex-direction: row;
+  }
 }
