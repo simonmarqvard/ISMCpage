@@ -1,3 +1,7 @@
+.container {
+  max-width: 1400px;
+}
+
 .footerContainer {
   width: 100%;
   background-color: beige;
@@ -17,7 +21,6 @@
 
 .contact {
   flex-basis: 300px;
-  /* background-color: red; */
 }
 
 .footerTitle {
@@ -49,6 +52,11 @@
   display: block;
   line-height: 25px;
   text-decoration: none;
+  color: black;
+}
+
+.links a:hover {
+  opacity: 0.5;
 }
 
 .footerAbout {

@@ -2,17 +2,17 @@ nav {
   /* background-color: grey; */
   width: 100%;
   display: flex;
-  display: flex;
   flex-direction: row;
-  margin: 15px 0 0 0;
+  margin: 0 0 0 0;
   border-top: 1px solid black;
-  /* background-color: grey; */
+  border-bottom: 1px solid black;
 }
 
 .linksContainer {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  display: block;
 }
 
 .one {
@@ -27,9 +27,28 @@ nav {
 }
 
 .link {
+  position: relative;
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 10px 0;
+  /* background-color: pink; */
+}
+
+.link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: black;
+  transition: 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.link:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 nav div {
@@ -45,9 +64,21 @@ nav a {
   text-transform: uppercase;
 }
 
+@media only screen and (min-width: 600px) {
+  .linksContainer {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: contents;
+  }
+}
+
 @media only screen and (min-width: 850px) {
   nav {
-    height: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: white;
+    line-height: 40px;
   }
 
   nav div {
@@ -60,6 +91,7 @@ nav a {
     display: inline;
     text-align: center;
     margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .link {

@@ -15,17 +15,18 @@
 
 .institute {
   margin: none;
-  /* background-color: beige; */
+  background-color: beige;
   height: 200px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: center;s
 }
 
 .titleContainer {
   display: flex;
   flex-direction: column;
 }
+
 
 .institute h1 {
   font-family: "Merriweather", serif;
