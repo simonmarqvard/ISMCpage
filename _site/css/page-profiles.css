@@ -2,7 +2,9 @@
   /* text-transform: uppercase; */
   text-decoration: underline;
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
   letter-spacing: 1px;
 }
 
@@ -87,48 +89,56 @@ input[type="checkbox"] {
 }
 
 .collapsible-content .content-inner {
-  background: lightgrey;
-  border-bottom: 1px solid rgba(250, 224, 66, 0.45);
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
+  background: white;
+  /* border-bottom: 1px solid black; */
+  /* border-bottom-left-radius: 7px; */
+  /* border-bottom-right-radius: 7px; */
   padding: 0.5rem 1rem;
 }
 
 .personalInfo {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: "Mari", Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 
-.profileImage {
+.personalInfo img {
   text-align: center;
-  background-color: black;
 }
 
-.personalDetails {
-  margin-left: 10px;
-  font-size: 14px;
+.imgInfo {
   display: flex;
   flex-direction: column;
 }
 
-.highlights div {
-  margin-bottom: 8px;
-  margin-right: 12px;
+.imgInfo img {
+  margin-right: 10px;
 }
 
 .jobDescription {
+  margin-top: 10px;
   font-size: 14px;
-  /* letter-spacing: 1px; */
+  flex-grow: 1;
+  line-height: 20px;
 }
 
-@media only screen and (min-width: 600px) {
-  .personalInfo {
+.highlights {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+.highlights div {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 500px) {
+  .imgInfo {
     display: flex;
     flex-direction: row;
-  }
-  .profileImage {
-    text-align: center;
-    background-color: lightgrey;
   }
 }
 
@@ -155,7 +165,15 @@ input[type="checkbox"] {
     text-align: left;
   }
 
-  .personalDetails {
-    flex-direction: row;
+  .jobDescription {
+    flex: 1;
+  }
+
+  .highlights {
+    display: flex;
+    margin-right: 15px;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 14px;
   }
 }
