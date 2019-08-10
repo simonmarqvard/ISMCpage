@@ -15,31 +15,79 @@
 
 .institute {
   margin: none;
-  background-color: beige;
-  height: 200px;
-  width: 100%;
+  /* background-color: beige; */
+  height: 260px;
+  width: auto;
   display: flex;
-  justify-content: center;s
+  justify-content: center;
+  overflow: hidden;
 }
 
 .titleContainer {
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
 }
 
+.headLines {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 0px;
+  /* filter: alpha(opacity=80); */
+  /* opacity: 0.8; */
+  z-index: 10000;
+}
+
+.mainTitle {
+  text-align: center;
+}
+
+.mainTitle {
+  margin: 0;
+  font-weight: 400;
+  font-size: 120px;
+  letter-spacing: 20px;
+  color: white;
+}
+
+.titleLogo {
+  display: flex;
+  justify-content: center;
+  filter: none;
+  margin-top: 35px;
+}
+
+.titleLogo img {
+  border: 3px solid white;
+}
+
+.aerial {
+  filter: brightness(0.5);
+}
+
+.titleContainer img {
+  position: relative;
+  width: auto;
+  top: -10px;
+  object-fit: cover;
+}
 
 .institute h1 {
-  font-family: "Merriweather", serif;
-  width: 100%;
-  margin: 0;
-  text-align: center;
-  font-weight: 800;
+  font-family: "Mari", sans-serif;
+  margin: 0px;
+  font-weight: 100;
   font-size: 120px;
-  letter-spacing: 30px;
-  color: black;
+  letter-spacing: 10px;
+  color: white;
 }
 
 .institute h2 {
   margin: 0;
-  font-family: "Merriweather", serif;
+  font-size: 18px;
+  white-space: nowrap;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }

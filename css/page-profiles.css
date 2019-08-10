@@ -3,9 +3,9 @@
   text-decoration: underline;
   font-size: 16px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .wrap-collabsible {
@@ -25,8 +25,8 @@ input[type="checkbox"] {
   text-transform: uppercase;
   text-align: center;
   padding: 1rem;
-  color: white;
-  background-image: linear-gradient(to right, #76c6eb, #009ce8);
+  color: black;
+  background-image: linear-gradient(to right, #fffcf7, #fffcf7);
   cursor: pointer;
   /* border-radius: 7px; */
   transition: all 0.25s ease-out;
@@ -51,7 +51,7 @@ input[type="checkbox"] {
 }
 
 .lbl-toggle:hover {
-  color: #7c5a0b;
+  color: #646c6f;
 }
 
 .lbl-toggle::before {
