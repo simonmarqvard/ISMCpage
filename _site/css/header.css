@@ -60,10 +60,22 @@
 
 .institute h2 {
   margin: 0;
-  font-size: 18px;
+  font-size: 10px;
   white-space: nowrap;
   color: white;
   font-weight: lighter;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+@media only screen and (min-width: 600px) {
+  .institute h2 {
+    margin: 0;
+    font-size: 18px;
+    white-space: nowrap;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
 }

@@ -3,9 +3,9 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: row;
-  margin: 0 0 0 0;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  margin-top: 10px;
+  /* border-top: 1px solid black; */
+  /* border-bottom: 1px solid black; */
 }
 
 .linksContainer {
@@ -17,6 +17,7 @@ nav {
 
 .one {
   flex-grow: 1;
+  flex-basis: 0;
   text-align: center;
   margin-right: 0;
 }
@@ -24,6 +25,7 @@ nav {
 .two {
   margin-left: 0;
   flex-grow: 1;
+  flex-basis: 0;
   text-align: center;
 }
 
@@ -35,7 +37,7 @@ nav {
   /* background-color: pink; */
 }
 
-.link:after {
+/* .link:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -50,7 +52,7 @@ nav {
 .link:hover:after {
   width: 100%;
   left: 0;
-}
+} */
 
 nav div {
   display: block;
@@ -68,9 +70,9 @@ nav a {
 @media only screen and (min-width: 600px) {
   .linksContainer {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 25px;
-    display: contents;
+    display: flex;
   }
 }
 
@@ -79,6 +81,7 @@ nav a {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     background-color: white;
+    margin-top: 0px;
     line-height: 40px;
   }
 
@@ -97,5 +100,24 @@ nav a {
 
   .link {
     border: none;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .link:hover:after {
+    width: 100%;
+    left: 0;
   }
 }
