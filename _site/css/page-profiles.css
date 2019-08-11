@@ -130,6 +130,10 @@ input[type="checkbox"] {
   font-size: 14px;
 }
 
+.highlights div span {
+  font-weight: 600;
+}
+
 .highlights div {
   font-size: 14px;
   margin-top: 5px;
