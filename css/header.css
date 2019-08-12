@@ -20,6 +20,10 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+  background-position: center 0%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/aerial.png");
+  background-blend-mode: saturation;
 }
 
 .titleContainer {
@@ -60,7 +64,7 @@
 
 .institute h2 {
   margin: 0;
-  font-size: 10px;
+  font-size: 11px;
   white-space: nowrap;
   color: white;
   font-weight: lighter;

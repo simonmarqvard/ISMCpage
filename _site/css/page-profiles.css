@@ -20,7 +20,7 @@ input[type="checkbox"] {
   display: block;
   font-family: "Mari", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 10px;
   letter-spacing: 3px;
   text-transform: uppercase;
   text-align: center;
@@ -101,6 +101,11 @@ input[type="checkbox"] {
   flex-wrap: wrap;
   font-family: "Mari", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  justify-content: center;
+}
+
+.profileImage {
+  text-align: center;
 }
 
 .personalInfo img {
@@ -118,22 +123,27 @@ input[type="checkbox"] {
 
 .jobDescription {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 10px;
   flex-grow: 1;
   line-height: 20px;
+  word-wrap: break-word;
   -ms-word-break: break-all;
   word-break: break-all;
   word-break: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
+}
+
+.jobDescription span {
+  font-weight: 600;
 }
 
 .highlights {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-size: 14px;
 }
 
 .highlights div span {
@@ -141,7 +151,7 @@ input[type="checkbox"] {
 }
 
 .highlights div {
-  font-size: 14px;
+  font-size: 10px;
   margin-top: 5px;
 }
 
@@ -150,29 +160,39 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: row;
   }
+  .lbl-toggle {
+    font-size: 18px;
+  }
+  .highlights div {
+    font-size: 14px;
+  }
+  .jobDescription {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (min-width: 850px) {
   #email {
     font-size: 12px;
-    display: unset;
+    display: block;
     text-transform: none;
-    flex: 1 1 0;
+    flex: 1 1;
   }
   #name {
     font-size: 16px;
     padding-left: 0;
-    display: unset;
-    flex: 1 1 0;
+    display: block;
+    flex: 1 1;
   }
   #number {
     font-size: 12px;
-    display: unset;
-    flex: 0 1 0;
+    display: block;
+    flex: 0 1 100px;
   }
 
   .lbl-toggle {
     text-align: left;
+    font-size: 18;
   }
 
   .jobDescription {

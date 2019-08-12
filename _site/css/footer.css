@@ -7,20 +7,21 @@
   background-color: beige;
   font-family: "Roboto", sans-serif;
   display: flex;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .columnDivider {
-  padding: 30px;
+  padding: 15px;
   margin: auto;
   width: 100%;
   justify-content: space-evenly;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .contact {
   flex-basis: 300px;
+  margin-left: 20px;
 }
 
 .footerTitle {
@@ -48,6 +49,7 @@
 }
 
 .links a {
+  font-family: "Helvetica", "Arial", sans-serif;
   margin: 0;
   display: block;
   line-height: 25px;
@@ -80,25 +82,35 @@
 
 @media only screen and (min-width: 850px) {
   .columnDivider {
-    padding: 30px;
     margin: auto;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     display: flex;
     flex-direction: row;
   }
 
   .links {
-    display: unset;
+    display: block;
   }
 
   .social-media {
-    display: unset;
+    display: block;
+  }
+  .footerContainer {
+    font-size: 14px;
+  }
+
+  .contact {
+    margin-left: 0px;
   }
 }
 
 @media only screen and (min-width: 600px) {
   .columnDivider {
     flex-direction: row;
+    padding: 30px;
+  }
+  .footerContainer {
+    font-size: 14px;
   }
 }
