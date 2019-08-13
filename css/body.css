@@ -4,6 +4,7 @@ html {
   margin: 0;
   font-family: "Mari", Helvetica, Arial, sans-serif;
   font-size: 100%;
+  scroll-behavior: smooth;
 }
 
 .bodyContainer {

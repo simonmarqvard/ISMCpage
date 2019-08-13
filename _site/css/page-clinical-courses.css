@@ -1,9 +1,35 @@
+.scrollButtons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.scrollButton {
+  text-align: center;
+  width: 200px;
+  color: red;
+}
+
+.scrollButton a {
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #009ce8;
+}
+
+.scrollButton a:hover {
+  color: red;
+}
+
 .clinicalCourseTitle {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 300;
+  margin-bottom: 30px;
+  line-height: 25px;
 }
 
 .courseContainer {
@@ -43,6 +69,7 @@
 
 .line {
   width: 100%;
+  margin-top: 14px;
   border-top: 1px solid black;
 }
 
@@ -51,6 +78,9 @@
     margin-left: 50px;
     margin-right: 50px;
     padding: 20px;
+  }
+  .clinicalCourseTitle {
+    line-height: 25px;
   }
 }
 
@@ -72,6 +102,17 @@
 
   .courseContainer h2 {
     font-size: 20px;
-    font-weight: 600;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  .scrollButton a {
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .clinicalCourseTitle {
+    font-size: 24px;
+    margin-bottom: 0px;
   }
 }
