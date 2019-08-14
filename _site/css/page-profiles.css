@@ -134,6 +134,7 @@ input[type="checkbox"] {
 
 .jobDescription span {
   font-weight: 600;
+  display: inline;
 }
 
 .highlights {
@@ -196,6 +197,10 @@ input[type="checkbox"] {
 
   .jobDescription {
     flex: 1;
+  }
+
+  .jobDescription span {
+    display: block;
   }
 
   .highlights {
