@@ -139,7 +139,7 @@ input[type="checkbox"] {
 }
 
 .highlights {
-  margin-left: 20px;
+  margin-left: 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -175,6 +175,9 @@ input[type="checkbox"] {
   .highlights div span {
     font-weight: 600;
     display: block;
+  }
+  .highlights {
+    margin-left: 20px;
   }
 }
 
