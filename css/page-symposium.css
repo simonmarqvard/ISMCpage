@@ -1,0 +1,19 @@
+.mainSymposium {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.mainSymposium img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.previousSymp {
+  justify-content: center;
+  display: flex;
+}
+
+.oldSymp img {
+  width: 200px;
+  height: 200px;
+}
