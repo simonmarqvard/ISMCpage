@@ -4,6 +4,7 @@ html {
   margin: 0;
   font-family: "Mari", Helvetica, Arial, sans-serif;
   font-size: 100%;
+  font-weight: 300;
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
 }
