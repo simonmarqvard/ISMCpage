@@ -5,7 +5,6 @@
 
 .mainSymposium img {
   width: 100%;
-  border-radius: 5px;
 }
 
 .mainSymposium img:hover {
@@ -37,7 +36,7 @@
 }
 
 .oldSymp span {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
   margin-bottom: 10px;
   text-align: center;
@@ -47,6 +46,7 @@
   border: 1px solid grey;
   max-width: 100%;
   max-height: 100%;
+  border-radius: 5px;
   opacity: 1;
   -webkit-transition-duration: 0.4s; /* Safari */
   /* margin-left: 10px; */
@@ -63,14 +63,15 @@
 }
 
 #tilmeldingSnekkersten {
+  font-family: "Mari", Helvetica, Arial, sans-serif;
   font-weight: 300;
   background-color: rgb(0, 37, 85);
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 5px 32px;
   text-decoration: none;
   display: block;
-  margin: 0 auto;
+  margin: -5px auto;
   width: 100%;
   font-size: 12px;
   cursor: pointer;
@@ -91,10 +92,11 @@
   #tilmeldingSnekkersten {
     width: 85%;
     font-size: 16px;
+    padding: 15px 32px;
   }
 
   .oldSymp span {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     margin-bottom: 10px;
     text-align: center;

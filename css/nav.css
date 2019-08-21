@@ -13,6 +13,8 @@ nav {
   display: flex;
   justify-content: space-around;
   display: block;
+  /* padding-bottom: 15px; */
+  /* border-bottom: 5px solid rgb(0, 125, 187); */
 }
 
 .one {
@@ -64,7 +66,7 @@ nav a {
   font-weight: 300;
   color: black;
   letter-spacing: 3px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 @media only screen and (min-width: 600px) {

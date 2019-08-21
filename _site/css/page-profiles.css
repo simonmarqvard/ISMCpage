@@ -1,10 +1,10 @@
 .position {
   /* text-transform: uppercase; */
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 30px;
-
+  font-weight: 400;
   letter-spacing: 2px;
 }
 
@@ -31,7 +31,8 @@ input[type="checkbox"] {
   cursor: pointer;
   /* border-radius: 7px; */
   transition: all 0.25s ease-out;
-  border-top: 1px solid black;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  /* border-top: 1px solid black; */
 }
 
 .profileInfo {
@@ -45,10 +46,6 @@ input[type="checkbox"] {
 
 #title {
   display: none;
-}
-
-.lbl-toggle:hover {
-  color: #646c6f;
 }
 
 .lbl-toggle::before {
@@ -82,14 +79,17 @@ input[type="checkbox"] {
 .toggle:checked + .lbl-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  background-color: #76c6eb;
 }
 
 .collapsible-content .content-inner {
   background: white;
+  /* border: 1px solid black; */
   /* border-bottom: 1px solid black; */
   /* border-bottom-left-radius: 7px; */
   /* border-bottom-right-radius: 7px; */
   padding: 0.5rem 1rem;
+  /* background-color: green; */
 }
 
 .personalInfo {
@@ -133,11 +133,6 @@ input[type="checkbox"] {
   hyphens: auto;
 }
 
-.jobDescription span {
-  font-weight: 600;
-  display: inline;
-}
-
 .highlights {
   margin-left: 0px;
   display: flex;
@@ -146,18 +141,29 @@ input[type="checkbox"] {
 }
 
 .highlights div span {
+  font-size: 10px;
   font-weight: 600;
   display: inline;
 }
 
 .highlights div {
+  line-height: 18px;
   margin-left: 35px;
   font-size: 10px;
-  margin-top: 5px;
   width: 200px;
 }
 
+.jobDescription span {
+  font-size: 10px;
+  font-weight: 600;
+  display: inline;
+  margin-top: 20px;
+}
+
 @media only screen and (min-width: 500px) {
+  .position {
+    font-size: 24px;
+  }
   .imgInfo {
     display: flex;
     flex-direction: row;
@@ -181,7 +187,7 @@ input[type="checkbox"] {
   }
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 850px) {
   #name {
     font-size: 18px;
     margin-left: 10px;
@@ -200,6 +206,11 @@ input[type="checkbox"] {
   .lbl-toggle {
     text-align: left;
     font-size: 18;
+  }
+
+  .lbl-toggle:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
 
   .jobDescription {
