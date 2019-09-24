@@ -26,13 +26,9 @@ input[type="checkbox"] {
   text-align: center;
   padding: 1rem;
   color: black;
-  /* background-color: azure; */
-  /* background-image: linear-gradient(to right, #76c6eb, #009ce8); */
   cursor: pointer;
-  /* border-radius: 7px; */
   transition: all 0.25s ease-out;
-  -webkit-transition-duration: 0.3s; /* Safari */
-  /* border-top: 1px solid black; */
+  -webkit-transition-duration: 0.5s; /* Safari */
 }
 
 .profileInfo {
@@ -69,7 +65,7 @@ input[type="checkbox"] {
 .collapsible-content {
   max-height: 0px;
   overflow: hidden;
-  transition: max-height 0.25s ease-in-out;
+  transition: max-height 0.45s ease-in-out;
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {

@@ -9,6 +9,10 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+.container {
+  margin: auto;
+}
+
 .bodyContainer {
   max-width: 1400px;
   margin-top: 20px;
