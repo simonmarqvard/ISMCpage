@@ -21,7 +21,7 @@
   justify-content: center;
   overflow: hidden;
   background-position: center 0%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("../images/aerial.png");
   background-blend-mode: saturation;
 }
@@ -51,9 +51,9 @@
   text-align: center;
 }
 
-.aerial {
+/* .aerial {
   filter: brightness(0.5);
-}
+} */
 
 .titleContainer img {
   position: relative;
@@ -64,22 +64,24 @@
 
 .institute h2 {
   margin: 0;
-  font-size: 11px;
+  font-size: 12px;
   white-space: nowrap;
   color: white;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 @media only screen and (min-width: 600px) {
   .institute h2 {
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     white-space: nowrap;
     color: white;
     font-weight: 500;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-transform: uppercase;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   }
 }

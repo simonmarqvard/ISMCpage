@@ -1,9 +1,85 @@
-.phdOverview {
-  margin-left: 20px;
+.yearContainer {
+  margin-left: 0px;
   margin-right: 20px;
 }
 
-.phdTitles {
+.yearSetup {
+  /* background-color: blue; */
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+  flex-direction: column;
+}
+
+.layoutWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.phdYear {
+  margin-right: 50px;
+  font-size: 24px;
+  color: rgb(0, 125, 187);
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.phd {
+  /* background-color: orange; */
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  min-width: 220px;
+  margin-right: 5px;
+}
+
+.phdAuthor {
+  line-height: 18px;
+  font-size: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.phdAuthor span {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color: rgb(0, 125, 187);
+}
+
+.phdTitle {
+  margin-top: 5px;
+  /* background-color: green; */
+  line-height: 18px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.phdTitle span {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+}
+
+
+@media only screen and (min-width: 700px) {
+ .yearSetup {
+   flex-direction: row;
+ }
+
+ .yearContainer {
+   margin-left: 20px;
+ }
+
+.phd {
+ width: 250px;
+ min-width: 250px;
+ margin-right: 10px;
+}
+/* .phdTitles {
   font-size: 18px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -36,7 +112,7 @@
   flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 850px) {
+ @media only screen and (min-width: 850px) {
   .phdOverview {
     margin-left: 50px;
     margin-right: 50px;
@@ -62,4 +138,4 @@
     justify-content: space-between;
     align-items: center;
   }
-}
+} */
