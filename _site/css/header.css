@@ -4,13 +4,13 @@
 }
 
 .region {
-  height: 45px;
+  height: 35px;
   background-image: linear-gradient(to right, #76c6eb, #009ce8);
   width: 100%;
 }
 
 .region img {
-  padding: 5px;
+  padding: 2px;
 }
 
 .institute {
@@ -21,7 +21,7 @@
   justify-content: center;
   overflow: hidden;
   background-position: center 0%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../images/aerial.png");
   background-blend-mode: saturation;
 }
@@ -76,7 +76,7 @@
 @media only screen and (min-width: 600px) {
   .institute h2 {
     margin: 0;
-    font-size: 20px;
+    font-size: 16px;
     white-space: nowrap;
     color: white;
     font-weight: 500;

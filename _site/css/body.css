@@ -15,7 +15,7 @@ html {
 
 .bodyContainer {
   max-width: 1400px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   padding: 30px 20px;
   /* background-color: green; */
   height: auto;

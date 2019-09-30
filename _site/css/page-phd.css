@@ -19,9 +19,6 @@
 .phdYear {
   margin-right: 50px;
   font-size: 24px;
-  color: rgb(0, 125, 187);
-  text-decoration: underline;
-  text-decoration-color: black;
 }
 
 .phd {
@@ -79,63 +76,3 @@
  min-width: 250px;
  margin-right: 10px;
 }
-/* .phdTitles {
-  font-size: 18px;
-  letter-spacing: 2px;
-  font-weight: 400;
-  margin-top: 50px;
-  border-bottom: 1px solid black;
-}
-
-.phdP {
-  font-size: 14px;
-}
-
-.phdYear {
-  font-size: 20px;
-  width: 50px;
-  font-weight: bold;
-}
-
-.phdName {
-  color: red;
-}
-
-.yearContainer ul {
-  padding: 0px;
-}
-
-.yearContainer li {
-  background-color: blue;
-  list-style-type: none;
-  width: 300px;
-  flex-wrap: wrap;
-}
-
- @media only screen and (min-width: 850px) {
-  .phdOverview {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  .phdTitles {
-    font-size: 24px;
-    letter-spacing: 2px;
-    font-weight: 400;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    border-bottom: 1px solid black;
-  }
-  .phdP {
-    font-size: 16px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  .yearContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-} */
