@@ -2,7 +2,39 @@
 layout: default
 ---
 
-<div class="homeText">
+<div class="newsContainer">
+  <h3>Latest news</h3>
+  <div class="newsHome">
+    <div class="news">
+      <a href="/news/#top">
+        Go to 1
+      </a>
+    </div>
+    <div class="news">
+      <a href="/news/#second">
+        Go to 2
+      </a>
+    </div>
+    <div class="news">
+      <a href="/news/#third">
+        Go to 3
+      </a>
+    </div>
+    <div class="news">
+      <a href="/news/#fourth">
+        Go to 4
+      </a>
+    </div>
+    <!-- <div class="news">
+      5
+    </div>
+    <div class="news">
+      6
+    </div> -->
+  </div>
+</div>
+
+<div class="mainContainerHome">
   <h3>ABOUT INSTITUTE OF SPORTS MEDICINE COPENHAGEN</h3>
   <p>
     Institute of Sports Medicine Copenhagen (ISMC) is a joint research institute
@@ -41,8 +73,26 @@ layout: default
     is a joint venture between the Capital Region hospital system and University
     of Copenhagen.
   </p>
+  <div><img src="/home/global.png" height="200px" /></div>
 </div>
-<div><img src="/home/global.png" height="200px" /></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+></script>
+
+<script>
+  $(".newsHome").slick({
+    cssEase: "ease",
+    fade: true,
+    dots: true,
+    dotsClass: "slick-dots",
+    arrows: false,
+    autoplay: true,
+    autoplayspeed: 2000
+  });
+</script>
 
 <!-- <div class="mainContainerHome">
   <div class="newsContainer"></div>

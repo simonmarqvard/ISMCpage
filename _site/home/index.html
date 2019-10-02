@@ -17,6 +17,7 @@
   <link rel="stylesheet" type="text/css" href="../css/nav.css" />
   <link rel="stylesheet" type="text/css" href="../css/body.css" />
   <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+  <link rel="stylesheet" type="text/css" href="../css/news.css" />
   <link rel="stylesheet" type="text/css" href="../css/page-home.css" />
   <link rel="stylesheet" type="text/css" href="../css/page-profiles.css" />
   <link rel="stylesheet" type="text/css" href="../css/page-contact.css" />
@@ -29,6 +30,19 @@
   />
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <!-- slick -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+  />
+  <!-- slick -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+  />
+
   <title>
     ISMC | Institute of Sports Medicine Copenhagen
   </title>
@@ -60,18 +74,50 @@
  <nav>
   <div class="linksContainer">
     <div class="link"><a href="/home">Home</a></div>
+    <div class="link"><a href="/news">News</a></div>
     <div class="link"><a href="/profiles">Profiles</a></div>
     <div class="link"><a href="/">Groups</a></div>
     <div class="link"><a href="/clinical-courses">Clinical-Courses</a></div>
     <div class="link"><a href="/symposium">Symposium</a></div>
     <div class="link"><a href="/phd">PhD</a></div>
-    <div class="link"><a href="/">Links</a></div>
     <div class="link"><a href="/contact">Contact</a></div>
   </div>
 </nav>
 
       <div class="bodyContainer">
-        <div class="homeText">
+        <div class="newsContainer">
+  <h3>Latest news</h3>
+  <div class="newsHome">
+    <div class="news">
+      <a href="/news/#top">
+        Go to 1
+      </a>
+    </div>
+    <div class="news">
+      <a href="/news/#second">
+        Go to 2
+      </a>
+    </div>
+    <div class="news">
+      <a href="/news/#third">
+        Go to 3
+      </a>
+    </div>
+    <div class="news">
+      <a href="/news/#fourth">
+        Go to 4
+      </a>
+    </div>
+    <!-- <div class="news">
+      5
+    </div>
+    <div class="news">
+      6
+    </div> -->
+  </div>
+</div>
+
+<div class="mainContainerHome">
   <h3>ABOUT INSTITUTE OF SPORTS MEDICINE COPENHAGEN</h3>
   <p>
     Institute of Sports Medicine Copenhagen (ISMC) is a joint research institute
@@ -110,8 +156,26 @@
     is a joint venture between the Capital Region hospital system and University
     of Copenhagen.
   </p>
+  <div><img src="/home/global.png" height="200px" /></div>
 </div>
-<div><img src="/home/global.png" height="200px" /></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+></script>
+
+<script>
+  $(".newsHome").slick({
+    cssEase: "ease",
+    fade: true,
+    dots: true,
+    dotsClass: "slick-dots",
+    arrows: false,
+    autoplay: true,
+    autoplayspeed: 2000
+  });
+</script>
 
 <!-- <div class="mainContainerHome">
   <div class="newsContainer"></div>

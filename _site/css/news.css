@@ -1,0 +1,48 @@
+.news-container {
+  margin: 0 auto;
+  width: 60%;
+  line-height: 30px;
+  /* background-color: purple; */
+  /* border: 1px solid black; */
+  margin-bottom: 50px;
+  border-bottom: 1px dotted black;
+}
+
+.title-container {
+  font-size: 16px;
+  /* background-color: orange; */
+}
+
+.news-title {
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 26px;
+  color: black;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  /* background-color: lightgreen;s */
+}
+
+.news-date {
+  padding-bottom: 5px;
+  margin: 0px;
+  font-size: 16px;
+}
+
+.newsDateContainer {
+  background-color: grey;
+}
+
+.blogImage {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.blogImage img {
+  object-fit: cover;
+  width: 100%;
+}
+
+/* .blogImage img {
+  height: 300px;
+} */

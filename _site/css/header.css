@@ -5,7 +5,7 @@
 
 .region {
   height: 35px;
-  background-image: linear-gradient(to right, #76c6eb, #009ce8);
+  background-image: linear-gradient(to right, lightgrey, grey);
   width: 100%;
 }
 
@@ -20,10 +20,10 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-position: center 0%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../images/aerial.png");
-  background-blend-mode: saturation;
+  /* background-position: center 0%; */
+  background-image: url("../images/aerial2.png");
+  background-size: cover;
+  background-blend-mode: lighten;
 }
 
 .titleContainer {

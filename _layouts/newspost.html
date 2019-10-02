@@ -1,0 +1,13 @@
+---
+layout: news
+---
+
+<h2>{{ page.title }}</h2>
+
+<div class="blogpost-header">
+  <img src="{{ page.gravatar }}" />
+  <!-- <span class="author"> by {{ page.author}}</span> -->
+  <span> - {{ page.date | date: '%B %d, %Y' }}</span>
+</div>
+
+{{ content }}
