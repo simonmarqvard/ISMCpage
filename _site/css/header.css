@@ -11,6 +11,7 @@
 
 .region img {
   padding: 2px;
+  padding-left: 10px;
 }
 
 .institute {
@@ -20,10 +21,10 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  /* background-position: center 0%; */
-  background-image: url("../images/aerial2.png");
+  background-position: center 40%;
+  background-image: url("../images/SAcells.png");
   background-size: cover;
-  background-blend-mode: lighten;
+  /* background-blend-mode: lighten; */
 }
 
 .titleContainer {
@@ -64,7 +65,7 @@
 
 .institute h2 {
   margin: 0;
-  font-size: 12px;
+  font-size: 10px;
   white-space: nowrap;
   color: white;
   font-weight: 600;
