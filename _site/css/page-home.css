@@ -34,11 +34,6 @@
   color: grey;
 }
 
-.mainText {
-  /* background-color: yellow; */
-  width: 100%;
-}
-
 .newsHome {
   margin: 0 auto;
   line-height: 30px;
@@ -46,9 +41,9 @@
   padding-bottom: 20px;
   /* height: 100px; */
   margin-bottom: 100px;
-  /* background-color: rgb(0, 145, 207); */
-  /* border-top: 1px dotted black; */
-  /* border-bottom: 1px dotted black; */
+  /* background-color: rgb(0, 57, 125); */
+  /* border-top: 1px solid black; */
+  /* border-bottom: 1px solid black; */
   /* width: 40%; */
 }
 

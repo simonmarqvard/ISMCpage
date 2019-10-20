@@ -28,14 +28,13 @@
   color: white;
   text-transform: uppercase;
   margin-bottom: 10px;
-  text-decoration: underline;
 }
 
 .Address p {
   margin: 0;
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 25px;
-  color: white;
+  color: darkgrey;
 }
 
 .social-media {
@@ -56,7 +55,7 @@
   display: block;
   line-height: 25px;
   text-decoration: none;
-  color: white;
+  color: darkgrey;
 }
 
 .links a:hover {

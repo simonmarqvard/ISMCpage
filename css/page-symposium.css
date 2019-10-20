@@ -40,6 +40,7 @@
 }
 
 .previousSymp {
+  width: 100%;
   justify-content: center;
   display: flex;
   flex-direction: row;
@@ -57,7 +58,7 @@
   margin-top: 40px;
   display: flex;
   flex-direction: column-reverse;
-  flex: 1 1 1;
+  width: 100%;
   max-width: 200px;
   margin-left: 10px;
   margin-right: 10px;
@@ -98,7 +99,7 @@
 
 #tilmeldingSnekkersten {
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: rgb(0, 125, 187);
   border: none;
   color: #ffffff;
   text-align: center;

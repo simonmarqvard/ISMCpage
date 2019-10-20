@@ -1,25 +1,23 @@
 .news-container {
   margin: 0 auto;
-  width: 60%;
+  width: 100%;
   line-height: 30px;
-  /* background-color: purple; */
-  /* border: 1px solid black; */
   margin-bottom: 50px;
   border-bottom: 1px dotted black;
 }
 
 .title-container {
-  font-size: 16px;
+  font-size: 14px;
   /* background-color: orange; */
 }
 
 .news-title {
   font-weight: 100;
   letter-spacing: 2px;
-  font-size: 26px;
+  font-size: 20px;
   color: black;
   margin-bottom: 5px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   /* background-color: lightgreen;s */
 }
 
@@ -37,6 +35,19 @@
 .blogImage img {
   object-fit: cover;
   width: 100%;
+}
+
+@media only screen and (min-width: 850px) {
+  .news-container {
+    width: 60%;
+  }
+  .title-container {
+    font-size: 16px;
+    /* background-color: orange; */
+  }
+  .news-title {
+    font-size: 26px;
+  }
 }
 
 /* .blogImage img {
