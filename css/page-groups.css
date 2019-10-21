@@ -1,0 +1,40 @@
+.groupsContainer {
+  margin: 0px;
+}
+
+.groupName {
+  margin-bottom: 50px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.groupName h1 {
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.groupName h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.groupName p {
+  margin: 0px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+  .groupName p {
+    font-size: 16px;
+  }
+  .groupsContainer {
+    margin: 20px;
+  }
+
+  .groupName h1 {
+    font-size: 26px;
+  }
+}
