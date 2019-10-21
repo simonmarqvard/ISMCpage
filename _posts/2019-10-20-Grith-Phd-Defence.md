@@ -1,7 +1,7 @@
 ---
 layout: newspost
 title: Grith Højfeldt Phd Defence
-postHero: ../images/PostImage.jpg
+postHero: ../images/blogImages/PostImage.jpg
 anchor: "2"
 ---
 

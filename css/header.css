@@ -22,7 +22,7 @@
   justify-content: center;
   overflow: hidden;
   background-position: center 40%;
-  background-image: url("../images/SAcells.png");
+  background-image: url("../images/header/SAcells.png");
   background-size: cover;
   /* background-blend-mode: lighten; */
 }

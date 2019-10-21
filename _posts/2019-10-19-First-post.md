@@ -1,7 +1,7 @@
 ---
 layout: newspost
 title: New ISMC website
-postHero: ../images/newWebpagePost.png
+postHero: ../images/blogImages/newWebpagePost.png
 anchor: "1"
 ---
 
