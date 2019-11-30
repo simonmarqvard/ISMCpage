@@ -10,7 +10,6 @@
   text-align: center;
   vertical-align: center;
   width: 100%;
-  background-color: lightgrey;
 }
 
 .newsContainer h3 {
@@ -66,8 +65,8 @@
 }
 
 .facts {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  /* border-top: 1px solid black; */
+  /* border-bottom: 1px solid black; */
   margin-bottom: 20px;
   padding: 5px;
   text-align: center;

@@ -76,15 +76,28 @@
  <nav>
   <div class="linksContainer">
     <div class="link"><a href="/">Home</a></div>
-    <div class="link"><a href="/news">News</a></div>
-    <div class="link"><a href="/profiles">Profiles</a></div>
-    <div class="link"><a href="/groups">Groups</a></div>
-    <div class="link"><a href="/clinical-courses">Clinical-Courses</a></div>
-    <div class="link"><a href="/symposium">Symposium</a></div>
-    <div class="link"><a href="/phd">PhD</a></div>
-    <div class="link"><a href="/contact">Contact</a></div>
+    <div class="link"><a href="/news/">News</a></div>
+    <div class="link"><a href="/profiles/">Profiles</a></div>
+    <div class="link"><a href="/groups/">Groups</a></div>
+    <div class="link"><a href="/clinical-courses/">Clinical-Courses</a></div>
+    <div class="link"><a href="/symposium/">Symposium</a></div>
+    <div class="link"><a href="/phd/">PhD</a></div>
+    <div class="link"><a href="/contact/">Contact</a></div>
   </div>
+  <div id="easterEgg"></div>
 </nav>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  jQuery(function($) {
+    var path = window.location.href;
+    $(".link a").each(function() {
+      if (this.href === path) {
+        $(this).addClass("activeLink");
+      }
+    });
+  });
+</script>
 
       <div class="bodyContainer">
         <div class="contactContainer">
