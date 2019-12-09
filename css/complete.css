@@ -43,8 +43,8 @@
 }
 
 .logoImage {
-  margin-top: 40px;
-  height: 150px;
+  margin-top: 25px;
+  height: 180px;
   border: 3px solid white;
 }
 
@@ -984,6 +984,15 @@ input[type="checkbox"] {
   font-weight: 600;
 }
 
+.phdTitle a {
+  text-decoration: none;
+  color: black;
+}
+
+.phdTitle a:hover {
+  color: grey;
+}
+
 .phdTitle span {
   display: block;
   font-size: 14px;
@@ -1047,5 +1056,126 @@ input[type="checkbox"] {
 
   .groupName h1 {
     font-size: 26px;
+  }
+}
+
+/* ___________Clinical courses _________ */
+
+.scrollButtons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.scrollButton {
+  text-align: center;
+  width: 200px;
+  margin-top: 20px;
+  color: red;
+}
+
+.scrollButton a {
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: rgb(0, 125, 187);
+}
+
+.scrollButton a:hover {
+  color: #f4511e;
+}
+
+.clinicalCourseTitle {
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+
+.courseContainer {
+  margin-left: 3px;
+  margin-right: 3px;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  border: 2px solid #222;
+  padding: 4px;
+}
+
+.courseContainer h1 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.courseContainer p {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 100;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.courseContainer h2 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.line {
+  width: 100%;
+  margin-top: 14px;
+  border-top: 1px solid black;
+}
+
+@media only screen and (min-width: 850px) {
+  .courseContainer {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+  }
+  .clinicalCourseTitle {
+    line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .courseContainer p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 100;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+
+  .courseContainer h1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 40px;
+  }
+
+  .courseContainer h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  .scrollButton a {
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .clinicalCourseTitle {
+    font-size: 24px;
+    margin-bottom: 0px;
   }
 }
